@@ -39,7 +39,7 @@ while check_stop:
 	###
 
 
-print "Done centroid positioning"
+print "Done centroid positioning, press Enter for 3d plot"
 z = raw_input()
 
 
