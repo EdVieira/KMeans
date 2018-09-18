@@ -43,7 +43,7 @@ print "In this dataset the trained set with K = 4 centroids usually looks nice..
 print "The ideal K amount may vary according to your dataset..."
 
 # Plot error decrease with Matplotlib
-plt.plot(ki,errors, c='y' ,marker='s')
+plt.plot(ki,errors, c='b' ,marker='s')
 plt.xlabel('K amount')
 plt.ylabel('Measured error')
 plt.legend(["Error as K increase"])
